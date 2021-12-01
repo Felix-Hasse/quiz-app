@@ -34,13 +34,13 @@ const cText=document.getElementById('c_text');
 
 let currentQuiz = 0;
 
-loadQuiz();
+loadQuiz(); 
 
 function loadQuiz(){
 
 const currentQuizData = quizData[currentQuiz];                  
 
-questionEl.innerText = currentQuizData.question;           
+questionEl.innerText  = currentQuizData.question;           
 
  aText.innerText = currentQuizData.a;                                     
  bText.innerText = currentQuizData.b;                    
