@@ -2,8 +2,8 @@ const quizData = [
     {
         question: "What is the capital of India?",
         a: "New Delhi",
-        a: "Mumbai",
-        a: "Chennai",
+        b: "Mumbai",
+        c: "Chennai",
         correct:'a'
     },{
         question: "What is the capital of USA?",
@@ -26,3 +26,25 @@ const quizData = [
 
     }
 ]
+
+const questionEl = document.getElementById('question')
+const aText=document.getElementById('a_text');
+const bText=document.getElementById('b_text');
+const cText=document.getElementById('c_text');
+
+let currentQuiz = 0;
+
+loadQuiz();
+
+function loadQuiz(){
+
+const currentQuizData = quizData[currentQuiz];                  
+
+questionEl.innerText = currentQuizData.question;           
+
+ aText.innerText = currentQuizData.a;                                     
+ bText.innerText = currentQuizData.b;                    
+ cText.innerText = currentQuizData.c;
+
+    currentQuiz++
+}

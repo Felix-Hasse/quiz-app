@@ -4,12 +4,12 @@
 
 body{
     background-color: #a7afbb;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     min-height: 100vh;
     
 }
-quiz-container{
+.quiz-container{
     background-color: white;
     width: 400px;
     border-radius: 10px;
@@ -22,17 +22,30 @@ quiz-container{
 .quiz-header{
     padding: 2rem;
 }
+h2{
+    margin:0;
+}
 
 ul{
     list-style: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    font-weight: bold;
 }
 button{
     background-color:blueviolet;
     border: none;
     color:white;
+    cursor: pointer;
     display: block;
     font-family: inherit;
     font-size: 1.5rem;
     width: 100%;
     padding: 2rem;
+}
+button:hover{
+    background-color: rgb(108, 37, 175);
 }
