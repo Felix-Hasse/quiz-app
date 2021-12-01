@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a7afbb;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+quiz-container{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 7px rgba(0,0,0,0.5);
+    width: 400px;
+}
